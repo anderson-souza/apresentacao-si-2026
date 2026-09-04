@@ -7,7 +7,8 @@ info: |
   Anderson Pereira de Souza
 class: text-center
 transition: slide-left
-duration: 35min
+duration: 60min
+timer: countdown
 mdc: true
 ---
 
@@ -58,6 +59,42 @@ layoutClass: gap-12
 </v-clicks>
 
 ---
+layout: two-cols
+layoutClass: gap-12
+---
+
+# Roteiro
+
+**Início da carreira**
+
+- Faculdade: valor e limites
+- Aprender a aprender
+- Inglês
+- Primeiro emprego
+- Networking
+- Ferramentas e comunicação
+
+::right::
+
+<div class="pt-14" />
+
+**Carreira em progresso**
+
+- Decisões e hype
+- Troca de empresa
+- Aprender com erros
+- Tendências e perfil em "T"
+- Ferramentas e IA
+- Tempo, soft skills e saúde mental
+- Visão de longo prazo
+
+<div class="col-span-2 mt-8 opacity-70 text-sm">
+
+São pílulas curtas — anote as dúvidas para o final.
+
+</div>
+
+---
 layout: statement
 class: text-center
 ---
@@ -82,30 +119,29 @@ layout: section
 
 ---
 
-# Pill 1 — Não subestimem o valor da faculdade
+# Pílula 1 — Não subestime o valor da faculdade
 
 <v-clicks>
 
-- Faculdade é valorizada por profissionais de **RH** (que vão te contratar)
-- Pode abrir várias portas, principalmente para os primeiros empregos
-- Aborda disciplinas fundamentais para formar bons profissionais
+- **RH valoriza o diploma** — ele abre portas nos primeiros empregos
+- Cobre as disciplinas que formam um bom profissional:
   - Lógica de programação
   - Programação Orientada a Objetos
   - Banco de dados
-  - Estrutura e Classificação de dados
+  - Estrutura e classificação de dados
   - etc.
 
 </v-clicks>
 
 ---
 
-# Pill 2 — A faculdade não te ensina tudo
+# Pílula 2 — Vá além do que a faculdade ensina
 
 <v-clicks>
 
-- A faculdade sempre estará atrás do mercado de trabalho
-- Tecnologias são lançadas constantemente e a faculdade sempre corre atrás para trazer aos acadêmicos
-- A faculdade te dará as bases — **você precisa ir além**
+- A faculdade sempre vai estar um passo atrás do mercado
+- Tecnologias novas surgem o tempo todo; o currículo demora a acompanhar
+- A faculdade te dá as bases — **o resto é com você**
 
 </v-clicks>
 
@@ -117,13 +153,13 @@ layout: section
 
 ---
 
-# Pill 3 — Aprenda a aprender
+# Pílula 3 — Aprenda a aprender
 
 <v-clicks>
 
 - Ser **autodidata** é a skill mais valiosa do bom profissional
-- Manter-se em constante atualização faz você sempre ser relevante no mercado
-- Preenche as lacunas da faculdade
+- Manter-se atualizado é o que te mantém relevante no mercado
+- É assim que você preenche as lacunas da faculdade
 
 </v-clicks>
 
@@ -132,19 +168,64 @@ layout: section
 **Dica:**
 
 - Aprenda com projetos pessoais concretos
-- Busque conhecimento em diversas plataformas e formatos — livros, cursos, palestras, podcasts
-- Crie um **diário de aprendizado**: anote semanalmente o que aprendeu e o que quer aprender na semana seguinte
+- Varie plataformas e formatos — livros, cursos, palestras, podcasts
+- Crie um **diário de aprendizado**: toda semana, o que aprendeu e o que quer aprender
 
 </div>
 
 ---
 
-# Pill 4 — Faça networking real
+# Pílula 4 — Domine o inglês o quanto antes
 
 <v-clicks>
 
-- Networking é muito importante, principalmente para os primeiros empregos
-- Faculdade é uma boa forma de networking com alunos e professores
+- O melhor conteúdo técnico nasce em inglês e demora (ou nunca) a ser traduzido
+- Documentação, entrevistas e code review acontecem em inglês no dia a dia
+- É o que separa a vaga nacional da **vaga internacional** (salário em dólar)
+
+</v-clicks>
+
+<div v-click class="mt-6 opacity-80">
+
+**Dica:**
+
+- Consuma o que você já gosta em inglês: podcasts, vídeos, docs
+- Pratique conversação: comunidades, grupos de estudo, aulas
+- Leia a documentação oficial sempre na versão original
+- Prefira aulas particulares a Apps como Duolingo
+
+</div>
+
+---
+
+# Pílula 5 — Construa seu caminho para o primeiro emprego
+
+<v-clicks>
+
+- Recrutador olha o que você **fez**, não só o que você estudou
+- Tenha um GitHub com 2–3 projetos reais (não só exercícios de curso)
+- Contribua em open source — documentação e correções pequenas já contam
+- Prepare-se para a entrevista: lógica, estruturas de dados e "explique seu código"
+
+</v-clicks>
+
+<div v-click class="mt-6 opacity-80">
+
+**Dica:**
+
+- Escreva um README decente em cada projeto — isso é comunicação
+- Participe de processos seletivos mesmo "sem estar pronto"; o feedback é aprendizado
+
+</div>
+
+---
+
+# Pílula 6 — Faça networking de verdade
+
+<v-clicks>
+
+- Networking pesa muito, principalmente nos primeiros empregos
+- Faculdade é networking com colegas e professores
 - Permite ensinar e aprender coisas novas
 
 </v-clicks>
@@ -153,34 +234,34 @@ layout: section
 
 **Dica:**
 
-- Não foque somente no LinkedIn
-- Faculdade e eventos são bons locais para networking
+- Não foque só no LinkedIn
+- Faculdade e eventos presenciais são ótimos lugares para networking
 
 </div>
 
 ---
 
-# Pill 5 — Não se apegue a ferramentas no início
+# Pílula 7 — Não se apegue a ferramentas no início
 
 <v-clicks>
 
-- Não se apegue a linguagens ou ferramentas no começo
+- Não se prenda a linguagens ou frameworks no começo
 - Linguagens mudam e frameworks passam
-- Foque em aprender os **fundamentos**
-- Ferramentas que você vai usar no futuro talvez nem tenham sido criadas ainda
+- Foque nos **fundamentos**
+- As ferramentas do seu futuro talvez nem existam ainda
 
 </v-clicks>
 
 ---
 
-# Pill 6 — Mude sua fala com base nas pessoas
+# Pílula 8 — Adapte sua fala a quem está ouvindo
 
 <v-clicks>
 
-- Mude a forma de falar conforme as pessoas na sala (Tech, RH, Diretores, etc.)
-- Com **RH / Diretor**: fale sobre resolução de problemas, trabalho em equipe e impacto
-- Com **Devs**: aprofunde em tecnologia e arquitetura
-- Evite jargões com não-techs
+- Ajuste o discurso conforme a plateia (Tech, RH, Diretoria)
+- Com **RH / Diretoria**: resolução de problemas, trabalho em equipe e impacto
+- Com **Devs**: tecnologia e arquitetura, mais a fundo
+- Evite jargão com não-techs
 
 </v-clicks>
 
@@ -188,11 +269,28 @@ layout: section
 
 **Dica: use frases como**
 
-- **RH:** _"Quero sair da minha zona de conforto e encarar novos desafios"_
-- **RH:** _"Melhorei o fluxo de trabalho e isso proporcionou ganhos à empresa"_
+- **RH:** _"Quero sair da zona de conforto e encarar novos desafios"_
+- **RH:** _"Melhorei o fluxo de trabalho e isso trouxe ganhos para a empresa"_
 - **Tech:** _"Gosto de estudar e estou sempre buscando novas tecnologias"_
 
 </div>
+
+---
+layout: statement
+class: text-center
+---
+
+# Início da carreira — recap
+
+<v-clicks>
+
+A faculdade dá a base; o resto é com você
+
+Aprender a aprender e o inglês são seus multiplicadores
+
+Relações e comunicação abrem tantas portas quanto código
+
+</v-clicks>
 
 ---
 layout: section
@@ -202,14 +300,14 @@ layout: section
 
 ---
 
-# Pill 7 — Aprenda a tomar decisões
+# Pílula 9 — Não terceirize suas decisões
 
 <v-clicks>
 
-- Saiba tomar decisões analisando prós e contras de forma analítica
-- Evite o _"escolhi tal tecnologia pois a Empresa Y usa"_
-- Entenda que seu momento é diferente do momento do outro
-- Assuma responsabilidade pela decisão final
+- Decida analisando prós e contras de forma analítica
+- Evite o _"escolhi essa tecnologia porque a Empresa Y usa"_
+- O seu momento é diferente do momento do outro
+- Assuma a responsabilidade pela decisão final
 
 </v-clicks>
 
@@ -221,13 +319,13 @@ layout: section
 
 ---
 
-# Pill 8 — Cuidado com Hypes
+# Pílula 10 — Desconfie dos hypes
 
 <v-clicks>
 
-- Hypes muitas vezes são modas passageiras ou exageros do mercado
-- Podem te levar a investir tempo e dinheiro em algo sem futuro (ou muito distante)
-- Não seja enganado por promessas milagrosas
+- Hype costuma ser moda passageira ou exagero do mercado
+- Pode te fazer investir tempo e dinheiro em algo sem futuro (ou muito distante)
+- Não caia em promessas milagrosas
 
 </v-clicks>
 
@@ -235,20 +333,20 @@ layout: section
 
 **Dica:**
 
-- Busque por opções já consolidadas no mercado
-- Mantenha a calma e controle as emoções antes de tomar decisões
+- Prefira opções já consolidadas no mercado
+- Mantenha a calma e controle a emoção antes de decidir
 
 </div>
 
 ---
 
-# Pill 9 — Quanto tempo devo ficar na mesma empresa?
+# Pílula 11 — Saiba a hora de trocar de empresa
 
 <v-clicks>
 
-- Fique na empresa enquanto estiver crescendo e evoluindo na carreira
-- No início da carreira, o ideal são ciclos de **1 a 3 anos**
-- Procure novas oportunidades enquanto está empregado
+- Fique enquanto estiver crescendo e evoluindo
+- No início da carreira, ciclos de **1 a 3 anos** costumam ser saudáveis
+- Procure novas oportunidades enquanto ainda está empregado
 
 </v-clicks>
 
@@ -256,21 +354,21 @@ layout: section
 
 **Dica:**
 
-- Seja egoísta com sua carreira
-- Avalie se aprendeu algo realmente novo nas últimas semanas
-- Se estiver fazendo mais do mesmo, pode ser um indicativo de mudança
+- Seja egoísta com a sua carreira
+- Você aprendeu algo realmente novo nas últimas semanas?
+- Se está fazendo "mais do mesmo", pode ser hora de mudar
 
 </div>
 
 ---
 
-# Pill 10 — Erre e aprenda com seus erros RÁPIDO!
+# Pílula 12 — Erre rápido e não repita o erro
 
 <v-clicks>
 
-- Você vai errar, faz parte — aprenda com os erros e evite-os no futuro
-- Errar 1 vez é humano; errar repetidas vezes a mesma coisa é…
-- Saiba aprender também com os erros alheios
+- Você vai errar, faz parte — aprenda e evite repetir
+- Errar uma vez é humano; repetir o mesmo erro é falta de processo
+- Aprenda também com os erros dos outros
 
 </v-clicks>
 
@@ -278,21 +376,22 @@ layout: section
 
 **Dica:**
 
-- Documentos de _post-mortem_ são boas opções para avaliar erros e problemas
-- Não se martirize pelo erro — saiba ser humilde consigo mesmo
+- Documentos de _post-mortem_ ajudam a analisar erros e problemas
+- Não se martirize — seja humilde consigo mesmo
 
 </div>
 
 ---
 
-# Pill 11 — Aprenda a surfar boas ondas
+# Pílula 13 — Aprenda a surfar as ondas certas
 
 <v-clicks>
 
-- Aprenda a identificar tendências reais no início e posicionar sua carreira para aproveitar a oportunidade
+- Identifique tendências reais cedo e posicione sua carreira para aproveitá-las
   - Boom do Mobile
   - Vagas remotas (pandemia)
   - IA
+- Diferença para a Pílula 10: **tendência muda o mercado; hype só muda a conversa**
 
 </v-clicks>
 
@@ -301,13 +400,13 @@ layout: two-cols
 layoutClass: gap-12
 ---
 
-# Pill 12 — Busque ser um profissional em T
+# Pílula 14 — Seja um profissional em "T"
 
 <v-clicks>
 
-- Aprenda um pouco de cada área
-- Se aprofunde em uma área de interesse
-- Tenha conhecimento razoável para executar tarefas sem muita dependência
+- Saiba um pouco de cada área
+- Aprofunde-se em uma área de interesse
+- Consiga executar tarefas sem depender demais dos outros
 - Empresas preferem profissionais mais completos
 
 </v-clicks>
@@ -316,29 +415,29 @@ layoutClass: gap-12
 
 <div class="pt-14" />
 
-**Largura (um pouco de tudo)**
+**Largura — um pouco de tudo**
 
-`Frontend` · `Business` · `Mobile` · `Backend` · `Testes`
+`Frontend` · `Backend` · `Mobile` · `Infra` · `Testes` · `Negócio`
 
-**Profundidade (a sua área)**
+**Profundidade — a sua área**
 
-- Frameworks
+Exemplo (Backend):
+
 - API Design
-- ORMs
-- Mensageria & Cache
+- Banco de dados e ORMs
+- Mensageria & cache
 - Segurança
-- Infra & Cloud
 - Arquitetura
 
 ---
 
-# Pill 13 — Aumente sua caixa de ferramentas
+# Pílula 15 — Aumente sua caixa de ferramentas
 
 <v-clicks>
 
-- Busque conhecer novas ferramentas e libs para resolver problemas com a ferramenta certa
-- Evite sempre usar apenas as ferramentas que você conhece para tudo
-  - Ex: sei PHP e quero criar um app iOS com essa linguagem
+- Conheça novas ferramentas e libs para resolver cada problema com a ferramenta certa
+- Evite usar só o que você já conhece para tudo
+  - Ex.: "sei PHP, então vou fazer um app iOS em PHP"
 - _"Para quem só sabe usar martelo, todo problema é um prego"_
 
 </v-clicks>
@@ -354,23 +453,23 @@ layoutClass: gap-12
 
 ---
 
-# Pill 14 — Não delegue tudo para a IA
+# Pílula 16 — Use a IA como copiloto, não como piloto
 
 <v-clicks>
 
 - IA alucina e mente com convicção
-- Você só saberá se a IA alucinou se souber o que esperar da saída
-- Trate a IA como uma **ferramenta** e um **copiloto**
+- Você só percebe a alucinação se souber o que esperar da saída
+- Trate a IA como **ferramenta** e **copiloto** — o volante é seu
 
 </v-clicks>
 
 ---
 
-# Pill 15 — Saiba gerenciar seu tempo
+# Pílula 17 — Equilibre trabalho, estudo, saúde e lazer
 
 <v-clicks>
 
-- Equilibre seu tempo entre **Trabalho, Estudo, Exercícios e Lazer**
+- Divida seu tempo entre **trabalho, estudo, exercícios e lazer**
 - Defina prioridades e se comprometa com elas
 
 </v-clicks>
@@ -379,48 +478,94 @@ layoutClass: gap-12
 
 **Dica:**
 
-- Planeje seus momentos diários com antecedência
-- Reserve pelo menos algumas horas para as 4 grandes áreas
+- Planeje o dia com antecedência
+- Reserve pelo menos algumas horas para cada uma das 4 áreas
 
 </div>
 
 ---
 
-# Pill 16 — Não subestime as Soft-Skills
+# Pílula 18 — Não subestime as soft skills
 
 <v-clicks>
 
-- Habilidades de conversação são importantes
-- Clareza na comunicação
+- Saber conversar e se posicionar abre portas
+- Clareza na comunicação, escrita e verbal
 - Aprenda a dizer não
 
 </v-clicks>
 
+<div v-click class="mt-8 opacity-80">
+
+**Dica:**
+
+- Treine escrita: mensagens, PRs e documentação são sua imagem no time
+- Ao dizer não, ofereça uma alternativa ou um prazo
+- Peça e dê feedback com frequência, não só na avaliação anual
+
+</div>
+
 ---
 
-# Pill 17 — Cuide da sua saúde mental
+# Pílula 19 — Cuide da sua saúde mental
 
 <v-clicks>
 
 - Ansiedade, burnout e síndrome do impostor são muito comuns em TI
-- Busque relaxar e se desligar de vez em quando
-- Busque terapia caso necessário
+- Saiba relaxar e se desligar de vez em quando
+- Busque terapia quando precisar
+
+</v-clicks>
+
+<div v-click class="mt-8 opacity-80">
+
+**Dica:**
+
+- Defina limites de horário e respeite-os
+- Sinais de alerta: cansaço que não passa, queda de produtividade
+
+</div>
+
+---
+
+# Pílula 20 — Tenha um plano de longo prazo
+
+<v-clicks>
+
+- Não delegue à empresa o rumo da sua carreira
+- Não trate exceções como regra
+- Busque sempre saber aquilo que você ainda não sabe
+- Sua evolução depende do **seu** plano, não só do PDI do emprego atual
+- Leia livros técnicos de base, não só tutoriais rasos da internet
+
+</v-clicks>
+
+---
+layout: statement
+class: text-center
+---
+
+# Carreira em progresso — recap
+
+<v-clicks>
+
+Pense por conta própria: desconfie de hype, aposte em tendência
+
+Cresça em "T" e amplie suas ferramentas — a IA é uma delas
+
+Sua carreira é sua responsabilidade, inclusive a saúde mental
 
 </v-clicks>
 
 ---
 
-# Pill 18 — Visão de Longo Prazo
+# Recursos
 
-<v-clicks>
-
-- Não delegue para a empresa o rumo da sua carreira
-- Não trate exceções como regra
-- Busque sempre saber aquilo que você ainda não sabe
-- Sua evolução depende do seu plano, não só do PDI do emprego atual
-- Leia livros técnicos de base, não apenas tutoriais rasos da internet
-
-</v-clicks>
+- **Roadmaps:** <https://roadmap.sh>
+- **Listas selecionadas:** <https://github.com/sindresorhus/awesome>
+- **Vídeo:** Fábio Akita — _"Não Terceirize suas Decisões!"_
+- **Fundamentos na prática:** projetos pessoais + contribuições open source
+- **Diário de aprendizado:** revisão semanal do que aprendeu / quer aprender
 
 ---
 layout: center
