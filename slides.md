@@ -147,7 +147,8 @@ layout: section
 
 <div v-click class="mt-8 opacity-80">
 
-**Dica:** Roadmap — <https://roadmap.sh/>
+**Dica:** 
+- Livro: "O programador pragmático"
 
 </div>
 
@@ -204,7 +205,6 @@ layout: section
 
 - Recrutador olha o que você **fez**, não só o que você estudou
 - Tenha um GitHub com 2–3 projetos reais (não só exercícios de curso)
-- Contribua em open source — documentação e correções pequenas já contam
 - Prepare-se para a entrevista: lógica, estruturas de dados e "explique seu código"
 
 </v-clicks>
@@ -212,9 +212,8 @@ layout: section
 <div v-click class="mt-6 opacity-80">
 
 **Dica:**
-
-- Escreva um README decente em cada projeto — isso é comunicação
-- Participe de processos seletivos mesmo "sem estar pronto"; o feedback é aprendizado
+- No início, plataformas como LeetCode são bons locais para praticar e ganhar experiência
+- Livro: "Cracking the Coding Interview"
 
 </div>
 
