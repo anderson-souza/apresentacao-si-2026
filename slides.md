@@ -1,7 +1,7 @@
 ---
 theme: slidev-theme-tahta
 themeConfig:
-  variant: boardroom
+  variant: soft
 title: Carreira Tech
 info: |
   ## Carreira Tech - Dicas de quem já está no mercado
@@ -24,7 +24,7 @@ title: Anderson Pereira de Souza
 ---
 
 # Formação
-- Formado em **Sistemas de Informação** - Unipar, turma de 2012
+- Formado em **Sistemas de Informação** - Unipar, turma de 2012~2015
 - Pós-graduação em **Desenvolvimento Mobile** - Universidade Estácio
 - Pós-graduação em **Desenvolvimento de Sistemas com Java** - Unyleya
 
@@ -46,12 +46,9 @@ title: Roadmap
 kicker: O que vamos trabalhar
 layout: agenda
 items:
-  - { topic: Início da carreira }
-  - { topic: Faculdade, fundamentos e primeiro emprego }
-  - { topic: Aprender a aprender, inglês e networking }
-  - { topic: Carreira em progresso }
-  - { topic: Decisões, hypes, tendências e soft skills }
-  - { topic: Recursos e dúvidas }
+  - { topic: Início da carreira, desc: "Faculdade, aprendizado, primeiro emprego"  }
+  - { topic: Carreira em progresso, desc: "Decisões, tendências e soft skills" }
+  - { topic: Recursos e dúvidas, desc: "Recomendações de livros e espaço para dúvidas" }
 ---
 
 ---
@@ -82,6 +79,10 @@ kicker: Início da carreira
   - Estrutura e classificação de dados
   - etc.
 
+<!--
+- Comentar sobre exceções a regra
+-->
+
 ---
 title: Pílula 2 - Vá além do que a faculdade ensina
 kicker: Início da carreira
@@ -100,7 +101,6 @@ Livros sobre comportamento e mindset profissional
 
 - "O Programador Pragmático: De Aprendiz a Mestre" - Andrew Hunt
 - "O Codificador Limpo" - Robert Martin
-
 
 </div>
 
@@ -187,7 +187,6 @@ kicker: Início da carreira
 - Não se prenda a linguagens ou frameworks no começo, foque nos **fundamentos**
 - Linguagens mudam e frameworks passam
 - Ferramentas que você usará podem nem ter sido criadas ainda
-- As ferramentas do seu futuro talvez nem existam ainda
 
 ---
 title: Pílula 8 - Adapte sua fala a quem está ouvindo
@@ -197,14 +196,13 @@ kicker: Início da carreira
 - Ajuste o discurso conforme a plateia (Tech, RH, Diretoria)
 - Com **RH / Diretoria**: resolução de problemas, trabalho em equipe e impacto
 - Com **Devs**: tecnologia e arquitetura, produtividade
-- Evite jargão com não-techs
 
 <div class="mt-6 opacity-80">
 
 **Dica: use frases como**
 
 - **RH:** _"Quero sair da zona de conforto e encarar novos desafios"_
-- **RH:** _"Melhorei o fluxo de trabalho e isso trouxe ganhos para a empresa"_
+- **Diretoria:** _"Melhorei o fluxo de trabalho e isso trouxe ganhos para a empresa"_
 - **Tech:** _"Gosto de estudar e estou sempre buscando novas tecnologias"_
 
 </div>
@@ -363,19 +361,21 @@ kicker: Carreira em progresso
 - Trate a IA como **ferramenta** e **copiloto** - o volante é seu
 
 ---
-title: Pílula 17 - Equilibre trabalho, estudo, saúde e lazer
+title: Pílula 17 - Cuide da sua saúde!
 kicker: Carreira em progresso
 ---
 
+- Cuide da sua saúde física e mental
 - Divida seu tempo entre **trabalho, estudo, exercícios e lazer**
-- Defina prioridades e se comprometa com elas
+- Ansiedade, burnout e síndrome do impostor são muito comuns em TI
 
 <div class="mt-8 opacity-80">
 
 **Dica:**
 
+- Reserve pelo menos algumas horas na semana para cada uma das 4 áreas
 - Planeje o dia com antecedência
-- Reserve pelo menos algumas horas para cada uma das 4 áreas
+- Busque terapia quando precisar
 
 </div>
 
@@ -399,25 +399,7 @@ kicker: Carreira em progresso
 </div>
 
 ---
-title: Pílula 19 - Cuide da sua saúde mental
-kicker: Carreira em progresso
----
-
-- Ansiedade, burnout e síndrome do impostor são muito comuns em TI
-- Saiba relaxar e se desligar de vez em quando
-- Busque terapia quando precisar
-
-<div class="mt-8 opacity-80">
-
-**Dica:**
-
-- Defina limites de horário e respeite-os
-- Sinais de alerta: cansaço que não passa, queda de produtividade
-
-</div>
-
----
-title: Pílula 20 - Tenha um plano de longo prazo
+title: Pílula 19 - Tenha um plano de longo prazo
 kicker: Carreira em progresso
 ---
 
@@ -437,7 +419,7 @@ title: Carreira em progresso - recap
 - Sua carreira é sua responsabilidade, inclusive a saúde mental
 
 ---
-title: Recursos
+title: Recursos e saiba mais
 ---
 
 - **Roadmaps:** <https://roadmap.sh>
@@ -445,6 +427,11 @@ title: Recursos
 - **Vídeo:** Fábio Akita - _"Não Terceirize suas Decisões!"_
 - **Fundamentos na prática:** projetos pessoais + contribuições open source
 - **Diário de aprendizado:** revisão semanal do que aprendeu / quer aprender
+- **Livros**
+  - Codificador limpo
+  - O programador pragmático
+  - Cracking the Coding Interview
+  - O Programador Apaixonado: Construindo uma carreira notável em desenvolvimento de software
 
 ---
 layout: end
@@ -452,3 +439,10 @@ title: Obrigado!
 subtitle: Estou à disposição para tirar dúvidas
 contact: https://www.linkedin.com/in/andersonpds/
 ---
+
+<style>
+/* Remove o contador de página do rodapé (tema slidev-theme-tahta) */
+.foot > span:not(.foot-left) {
+  display: none;
+}
+</style>
