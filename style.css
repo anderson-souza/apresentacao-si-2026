@@ -1,0 +1,12 @@
+/*
+  Ajuste rápido de tamanho de fonte para apresentação em projetor.
+  Mude apenas o valor de --slide-font-scale (ex: 1.15, 1.3, 1.5...)
+  e reinicie/recarregue o dev server para ver o efeito.
+*/
+:root {
+  --slide-font-scale: 1.1;
+}
+
+.slidev-layout {
+  font-size: calc(1em * var(--slide-font-scale));
+}

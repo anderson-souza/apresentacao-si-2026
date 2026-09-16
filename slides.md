@@ -34,10 +34,9 @@ title: Anderson Pereira de Souza
 - Hoje: Atuo como **Tech Leader na Involves**
 - Mais de **10 anos** trabalhando na área
 
-- **Suporte técnico** - ERP Sapiens (Senior Sistemas)
-- **Tutor mediador** (Unipar) - 4 cursos da área de TI
-- **Desenvolvedor Fullstack** - JSP/JSF, JavaScript, jQuery, Angular, React, TypeScript
-- **Desenvolvedor Backend** - Java, PHP, Kotlin
+- **Suporte técnico** - ERP Sapiens
+- **Tutor mediador** (Unipar) - 4 cursos de TI
+- **Desenvolvedor Fullstack** - JSP/JSF, JavaScript, jQuery, Angular, React, TypeScript, Java, PHP, Kotlin
 - **Desenvolvedor Mobile** - Flutter, React Native
 - **Tech Leader (Mobile)** - equipe de 8 pessoas
 
@@ -93,14 +92,10 @@ kicker: Início da carreira
 - Tecnologias novas surgem o tempo todo e o currículo demora a acompanhar
 - A faculdade te dará as bases e **o resto é com você**
 
-<div class="mt-8 opacity-80">
+<div class="mt-6 opacity-80">
 
-**Dica:**
-
-Livros sobre comportamento e mindset profissional
-
-- "O Programador Pragmático: De Aprendiz a Mestre" - Andrew Hunt
-- "O Codificador Limpo" - Robert Martin
+# Dicas
+- Roadmap por área: [Roadmap.sh](https://roadmap.sh)
 
 </div>
 
@@ -149,16 +144,12 @@ kicker: Início da carreira
 
 - Escolha um foco: A área de TI é muito grande
 - Monte um portfólio, crie projetos reais não só exercícios de curso
-- Recrutador olha o que você **fez**, não só o que você estudou
+- Recrutador olha o que você **fez**, não só o que você estudou  
+<div class="mt-4 opacity-90">
 
-<div class="mt-6 opacity-80">
-
-**Dica:**
-
-- Aproveite o tempo de Estágio para ganhar experiência
-- No início, plataformas como LeetCode são bons locais para praticar e ganhar experiência
-- Livro: "Cracking the Coding Interview"
-
+# Dicas:
+- Plataformas como LeetCode são bons locais para praticar e ganhar experiência
+- Encontre um problema real e tente resolvê-lo!
 </div>
 
 ---
@@ -187,6 +178,14 @@ kicker: Início da carreira
 - Não se prenda a linguagens ou frameworks no começo, foque nos **fundamentos**
 - Linguagens mudam e frameworks passam
 - Ferramentas que você usará podem nem ter sido criadas ainda
+
+<div class="mt-8 opacity-80">
+
+**Dica:**
+
+- Entenda a essência central da tecnologia para se adaptar a outras
+
+</div>
 
 ---
 title: Pílula 8 - Adapte sua fala a quem está ouvindo
@@ -261,7 +260,7 @@ title: Pílula 11 - Saiba a hora de trocar de empresa
 kicker: Carreira em progresso
 ---
 
-- Fique enquanto estiver crescendo e evoluindo
+- Permaneça na empresa enquanto estiver crescendo e evoluindo
 - No início da carreira, ciclos de **1 a 3 anos** costumam ser saudáveis
 - Procure novas oportunidades enquanto ainda está empregado
 
@@ -269,14 +268,14 @@ kicker: Carreira em progresso
 
 **Dica:**
 
-- Seja egoísta com a sua carreira
-- Você aprendeu algo realmente novo nas últimas semanas?
+- Se coloque em primeiro lugar quando o assunto for sua carreira
+- Pense: você aprendeu algo realmente novo nas últimas semanas?
 - Se está fazendo "mais do mesmo", pode ser hora de mudar
 
 </div>
 
 ---
-title: Pílula 12 - Erre rápido e não repita o erro
+title: Pílula 12 - Erre, ajuste rápido e não repita o erro
 kicker: Carreira em progresso
 ---
 
@@ -302,6 +301,7 @@ kicker: Carreira em progresso
   - Boom do Mobile
   - Vagas remotas (pandemia)
   - IA
+- Fique atento principalmente ao mercardo externo
 - Diferença para a Pílula 10: **tendência muda o mercado; hype só muda a conversa**
 
 ---
@@ -311,26 +311,13 @@ title: Pílula 14 - Seja um profissional em "T"
 kicker: Carreira em progresso
 ---
 
-- Saiba um pouco de cada área
-- Aprofunde-se em uma área de interesse
-- Consiga executar tarefas sem depender demais dos outros
+- Saiba um pouco de cada área, mas se especialize em uma
 - Empresas preferem profissionais mais completos
+- Consiga executar tarefas sem depender demais dos outros
 
 ::right::
 
-**Largura - um pouco de tudo**
-
-`Frontend` · `Backend` · `Mobile` · `Infra` · `Testes` · `Negócio`
-
-**Profundidade - a sua área**
-
-Exemplo (Backend):
-
-- API Design
-- Banco de dados e ORMs
-- Mensageria & cache
-- Segurança
-- Arquitetura
+<img src="/resources/t-shape.png" />
 
 ---
 title: Pílula 15 - Aumente sua caixa de ferramentas
@@ -352,13 +339,14 @@ kicker: Carreira em progresso
 </div>
 
 ---
-title: Pílula 16 - Use a IA como copiloto, não como piloto
+title: Pílula 16 - Use a IA como ferramenta
 kicker: Carreira em progresso
 ---
 
 - IA alucina e mente com convicção
+- IA foi feita para agradar ao usuário e inventará dados se for necessário
 - Você só percebe a alucinação se souber o que esperar da saída
-- Trate a IA como **ferramenta** e **copiloto** - o volante é seu
+- Trate a IA como **ferramenta** e **copiloto** - a decisão final é sua
 
 ---
 title: Pílula 17 - Cuide da sua saúde!
@@ -392,9 +380,8 @@ kicker: Carreira em progresso
 
 **Dica:**
 
-- Treine escrita: mensagens, PRs e documentação são sua imagem no time
 - Ao dizer não, ofereça uma alternativa ou um prazo
-- Peça e dê feedback com frequência, não só na avaliação anual
+- Peça e dê feedback com frequência para melhorar suas habilidades
 
 </div>
 
@@ -404,10 +391,16 @@ kicker: Carreira em progresso
 ---
 
 - Não delegue à empresa o rumo da sua carreira
-- Não trate exceções como regra
-- Busque sempre saber aquilo que você ainda não sabe
-- Sua evolução depende do **seu** plano, não só do PDI do emprego atual
-- Leia livros técnicos de base, não só tutoriais rasos da internet
+- Sua evolução depende do **seu** plano de futuro, não só do PDI do emprego atual
+- Mentalize onde quer chegar e crie planos para atingir suas metas
+
+<div class="mt-8 opacity-80">
+
+**Dica:**
+
+- Tente imaginar onde estará em 1, 3 e 5 anos
+
+</div>
 
 ---
 layout: statement
@@ -423,7 +416,7 @@ title: Recursos e saiba mais
 ---
 
 - **Roadmaps:** <https://roadmap.sh>
-- **Listas selecionadas:** <https://github.com/sindresorhus/awesome>
+- **Listas Awesome:** <https://github.com/sindresorhus/awesome>
 - **Vídeo:** Fábio Akita - _"Não Terceirize suas Decisões!"_
 - **Fundamentos na prática:** projetos pessoais + contribuições open source
 - **Diário de aprendizado:** revisão semanal do que aprendeu / quer aprender
